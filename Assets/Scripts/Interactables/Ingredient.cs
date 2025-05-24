@@ -5,8 +5,7 @@ using UnityEngine;
 public class Ingredient : MonoBehaviour, IInteractable
 {
     [SerializeField] private string ingredientName;
-    [SerializeField] private string liftTrigger;
-    [SerializeField] private string setDownTrigger;
+    [SerializeField] private string boolIsLiftedName;
 
     private IngredientManager ingredientManager;
 
@@ -22,12 +21,12 @@ public class Ingredient : MonoBehaviour, IInteractable
 
     public void PlayLiftAnim()
     {
-        ingredientManager.GetSpoonsAnimator().SetTrigger(liftTrigger);
+        ingredientManager.GetSpoonsAnimator().SetBool(boolIsLiftedName, true);
     }
 
     public void PlaySetDownAnim()
     {
-        ingredientManager.GetSpoonsAnimator().SetTrigger(setDownTrigger);
+        ingredientManager.GetSpoonsAnimator().SetBool(boolIsLiftedName, false);
     }
 
     public string GetIngredientName() => ingredientName;

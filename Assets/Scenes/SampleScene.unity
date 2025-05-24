@@ -714,8 +714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientName: 
-  liftTrigger: Lift_
-  setDownTrigger: SetDown_
+  boolIsLiftedName: _Lifted
 --- !u!1 &377940549
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,8 +1530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientName: Cucumber
-  liftTrigger: Lift_Cucumber
-  setDownTrigger: SetDown_Cucumber
+  boolIsLiftedName: Cucumber_Lifted
 --- !u!1 &643839361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,8 +1871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientName: Furikake
-  liftTrigger: Lift_Furikake
-  setDownTrigger: SetDown_Furikake
+  boolIsLiftedName: Furikake_Lifted
 --- !u!1 &915008893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,8 +1963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientName: Ani-Tuna
-  liftTrigger: Lift_AniTuna
-  setDownTrigger: SetDown_AniTuna
+  boolIsLiftedName: AniTuna_Lifted
 --- !u!1 &927471823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,8 +2819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientName: 
-  liftTrigger: Lift_
-  setDownTrigger: SetDown_
+  boolIsLiftedName: _Lifted
 --- !u!1001 &1246935789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3448,8 +3443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientName: Salmon
-  liftTrigger: Lift_Salmon
-  setDownTrigger: SetDown_Salmon
+  boolIsLiftedName: Salmon_Lifted
 --- !u!1 &1539618832
 GameObject:
   m_ObjectHideFlags: 0
@@ -3732,8 +3726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientName: Edamame
-  liftTrigger: Lift_Edamame
-  setDownTrigger: SetDown_Edamame
+  boolIsLiftedName: Edamame_Lifted
 --- !u!1 &1784921158
 GameObject:
   m_ObjectHideFlags: 0
@@ -3825,8 +3818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientName: Inamona
-  liftTrigger: Lift_Inamona
-  setDownTrigger: SetDown_Inamona
+  boolIsLiftedName: Inamona_Lifted
 --- !u!1 &1785944110
 GameObject:
   m_ObjectHideFlags: 0
