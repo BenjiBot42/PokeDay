@@ -1,0 +1,1321 @@
+fileFormatVersion: 2
+guid: 3a3ca4426205dba4897bfd5277ce12a2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 0
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 0
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638826847204818867
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1000
+      height: 270
+    spriteID: f42d82a4d689aa749ac8b0c77bda556e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Counter
+    originalName: 
+    pivot: {x: 0.5, y: -0.16216215}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 282
+      width: 1000
+      height: 185
+    spriteID: 27fec5579b177f04bbe64f7d42f591e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 282}
+  - name: shadow
+    originalName: 
+    pivot: {x: 0.546697, y: -0.72131145}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 475
+      width: 878
+      height: 122
+    spriteID: e24e78c30d5c343439de748a63408ced
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 475}
+  - name: rice cooker Copy
+    originalName: 
+    pivot: {x: 3.6946566, y: -0.6302521}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 534
+      y: 651
+      width: 131
+      height: 119
+    spriteID: 903d88688a66feb428e4f73f97d8acde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 534, y: 651}
+  - name: bowl layer2
+    originalName: 
+    pivot: {x: 5.26087, y: -0.98148143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 408
+      y: 806
+      width: 69
+      height: 54
+    spriteID: 85961c6efb9d016498c6a6e8c101271a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 408, y: 806}
+  - name: bowl
+    originalName: 
+    pivot: {x: 4.8157897, y: -0.69642866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 203
+      y: 806
+      width: 76
+      height: 56
+    spriteID: ed805f3247aabec44a9a3173f15a1ea1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 203, y: 806}
+  - name: fish bar
+    originalName: 
+    pivot: {x: 1.1206225, y: -0.61904764}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 651
+      width: 257
+      height: 126
+    spriteID: bbdff7ac31ad63b469bc1578f787b015
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 651}
+  - name: Salmon
+    originalName: 
+    pivot: {x: 1.1913043, y: -2.088889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 673
+      y: 651
+      width: 230
+      height: 45
+    spriteID: 85058291ecc5f9a489207e9bb495cbac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 673, y: 651}
+  - name: Ani-Tuna
+    originalName: 
+    pivot: {x: 1.1861471, y: -3.409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 673
+      y: 704
+      width: 231
+      height: 44
+    spriteID: 6881bf14c3dfd644d87a7f093d33920d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 673, y: 704}
+  - name: topping bar
+    originalName: 
+    pivot: {x: -0.5914397, y: -0.61904764}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 651
+      width: 257
+      height: 126
+    spriteID: 1f4e55d9812f8d04594cddaa2861282c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 269, y: 651}
+  - name: Furikake
+    originalName: 
+    pivot: {x: -1.4473686, y: -2.1627908}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 890
+      y: 538
+      width: 114
+      height: 43
+    spriteID: c5649de53134bde4f88e599ec7fee192
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 890, y: 538}
+  - name: Cucumber
+    originalName: 
+    pivot: {x: -2.5044248, y: -2.35}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 806
+      width: 113
+      height: 40
+    spriteID: f3f7a515e85ab304290b17443c3c4199
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 806}
+  - name: Inamona
+    originalName: 
+    pivot: {x: -2.5044248, y: -4.0540543}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 287
+      y: 806
+      width: 113
+      height: 37
+    spriteID: 4e6eb8963daf97144ad66036cfc27a6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 287, y: 806}
+  - name: Edamame
+    originalName: 
+    pivot: {x: -1.3280001, y: -2.727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 890
+      y: 475
+      width: 125
+      height: 55
+    spriteID: 212f3d8124da76d4ca8af2e5a9eecf1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 890, y: 475}
+  - name: Cucumber
+    originalName: 
+    pivot: {x: -7.799999, y: -7.6111116}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 854
+      width: 40
+      height: 18
+    spriteID: 602336491631adb42b5f512e8fdbfff8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 854}
+  - name: Furikake
+    originalName: 
+    pivot: {x: -4.975, y: -7.6111116}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 854
+      width: 40
+      height: 18
+    spriteID: 0e27680d8624d2745a906389b58e87f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 854}
+  - name: Inamona
+    originalName: 
+    pivot: {x: -7.8500004, y: -10.555555}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 287
+      y: 851
+      width: 40
+      height: 18
+    spriteID: 25d3723862cf157429f5782cf58f993b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 287, y: 851}
+  - name: Edamame
+    originalName: 
+    pivot: {x: -5.0249996, y: -10.555555}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 851
+      width: 40
+      height: 18
+    spriteID: 675d50e906441b54487d7f60f879ce3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 851}
+  - name: Salmon
+    originalName: 
+    pivot: {x: 7.3750005, y: -7.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 911
+      y: 651
+      width: 40
+      height: 18
+    spriteID: 63502571d9e080440ac582317c19d7f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 911, y: 651}
+  - name: Ani-Tuna
+    originalName: 
+    pivot: {x: 7.325, y: -10.611112}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 959
+      y: 651
+      width: 40
+      height: 18
+    spriteID: de050384b93a30048a2a5194a9fc3dfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 959, y: 651}
+  - name: salmon
+    originalName: 
+    pivot: {x: 1.3200003, y: -1.9814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 485
+      y: 806
+      width: 50
+      height: 54
+    spriteID: 42182ed64bf8e4f498ab3a5a3348f76d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 485, y: 806}
+  - name: ahi tuna
+    originalName: 
+    pivot: {x: 1.3599998, y: -3.037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 543
+      y: 806
+      width: 50
+      height: 54
+    spriteID: 3cd98856e86ad114993038cf2c2df90b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 543, y: 806}
+  - name: cucumber
+    originalName: 
+    pivot: {x: -7.6, y: -2.0185184}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 601
+      y: 806
+      width: 50
+      height: 54
+    spriteID: f86b45dd01954d743950a6b3aac51a1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 601, y: 806}
+  - name: edamame
+    originalName: 
+    pivot: {x: -5.12, y: -3.037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 659
+      y: 806
+      width: 50
+      height: 54
+    spriteID: 30df3971c119c584385bb6a4c6cbbceb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 659, y: 806}
+  - name: furikake
+    originalName: 
+    pivot: {x: -5.2, y: -2.0925925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 717
+      y: 806
+      width: 50
+      height: 54
+    spriteID: 1d8e07ef49c3f1d4c9dd43d1a37a3fa5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 717, y: 806}
+  - name: inamona
+    originalName: 
+    pivot: {x: -7.5199995, y: -3.037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 775
+      y: 806
+      width: 50
+      height: 54
+    spriteID: 290b9895f11ea1b48a9cf8b19e4863d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 775, y: 806}
+  - name: Layer 3
+    originalName: 
+    pivot: {x: -1.0285718, y: -2.264706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 806
+      width: 70
+      height: 68
+    spriteID: 02b3dd0a5a7b36d45b6995763a80c425
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 806}
+  - name: bowl layer2 Copy
+    originalName: 
+    pivot: {x: 4.8157897, y: -0.75384617}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 912
+      y: 704
+      width: 76
+      height: 65
+    spriteID: 4be8a03baace6454599b50ba29e8b9eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 912, y: 704}
+  - name: Layer 4
+    originalName: 
+    pivot: {x: 0.5, y: -16.846153}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 785
+      width: 1000
+      height: 13
+    spriteID: baacc7ae68beb894581d41e162bf2ae5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 785}
+  - name: Layer 5
+    originalName: 
+    pivot: {x: 0.5, y: -6.105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 605
+      width: 1000
+      height: 38
+    spriteID: eaca5b17adf75e147bbf40165364c811
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 605}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1021688250
+    name: Background
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Background
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 1000
+        height: 270
+      spriteId: f42d82a4d689aa749ac8b0c77bda556e
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 1
+    guid: 1804843251
+    name: Counter
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Counter
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 30
+        width: 1000
+        height: 185
+      spriteId: 27fec5579b177f04bbe64f7d42f591e6
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 2
+    guid: 892548468
+    name: shadow
+    layerFlags: 3
+    layerType: 0
+    blendMode: 1
+    cells:
+    - name: shadow
+      frameIndex: 0
+      cellRect:
+        x: 20
+        y: 88
+        width: 878
+        height: 122
+      spriteId: e24e78c30d5c343439de748a63408ced
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 3
+    guid: -2024960112
+    name: rice cooker Copy
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: rice cooker Copy
+      frameIndex: 0
+      cellRect:
+        x: 16
+        y: 75
+        width: 131
+        height: 119
+      spriteId: 903d88688a66feb428e4f73f97d8acde
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: -460977742
+    name: bowl
+    layerFlags: 35
+    layerType: 1
+    blendMode: 0
+    cells: []
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 5
+    guid: -1009968918
+    name: bowl layer2
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: bowl layer2
+      frameIndex: 0
+      cellRect:
+        x: 137
+        y: 53
+        width: 69
+        height: 54
+      spriteId: 85961c6efb9d016498c6a6e8c101271a
+    linkedCells: []
+    parentIndex: 4
+  - layerIndex: 6
+    guid: -460977744
+    name: bowl
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: bowl
+      frameIndex: 0
+      cellRect:
+        x: 134
+        y: 39
+        width: 76
+        height: 56
+      spriteId: ed805f3247aabec44a9a3173f15a1ea1
+    linkedCells: []
+    parentIndex: 4
+  - layerIndex: 7
+    guid: 845545461
+    name: poke bar
+    layerFlags: 35
+    layerType: 1
+    blendMode: 0
+    cells: []
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 8
+    guid: 1279363545
+    name: fish bar
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: fish bar
+      frameIndex: 0
+      cellRect:
+        x: 212
+        y: 78
+        width: 257
+        height: 126
+      spriteId: bbdff7ac31ad63b469bc1578f787b015
+    linkedCells: []
+    parentIndex: 7
+  - layerIndex: 9
+    guid: 1641037297
+    name: Salmon
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Salmon
+      frameIndex: 0
+      cellRect:
+        x: 226
+        y: 94
+        width: 230
+        height: 45
+      spriteId: 85058291ecc5f9a489207e9bb495cbac
+    linkedCells: []
+    parentIndex: 7
+  - layerIndex: 10
+    guid: -1050131657
+    name: Ani-Tuna
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Ani-Tuna
+      frameIndex: 0
+      cellRect:
+        x: 226
+        y: 150
+        width: 231
+        height: 44
+      spriteId: 6881bf14c3dfd644d87a7f093d33920d
+    linkedCells: []
+    parentIndex: 7
+  - layerIndex: 11
+    guid: 75797283
+    name: topping bar
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: topping bar
+      frameIndex: 0
+      cellRect:
+        x: 652
+        y: 78
+        width: 257
+        height: 126
+      spriteId: 1f4e55d9812f8d04594cddaa2861282c
+    linkedCells: []
+    parentIndex: 7
+  - layerIndex: 12
+    guid: -1424141226
+    name: Furikake
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Furikake
+      frameIndex: 0
+      cellRect:
+        x: 665
+        y: 93
+        width: 114
+        height: 43
+      spriteId: c5649de53134bde4f88e599ec7fee192
+    linkedCells: []
+    parentIndex: 7
+  - layerIndex: 13
+    guid: 1878941331
+    name: Cucumber
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Cucumber
+      frameIndex: 0
+      cellRect:
+        x: 783
+        y: 94
+        width: 113
+        height: 40
+      spriteId: f3f7a515e85ab304290b17443c3c4199
+    linkedCells: []
+    parentIndex: 7
+  - layerIndex: 14
+    guid: -2101627935
+    name: Inamona
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Inamona
+      frameIndex: 0
+      cellRect:
+        x: 783
+        y: 150
+        width: 113
+        height: 37
+      spriteId: 4e6eb8963daf97144ad66036cfc27a6e
+    linkedCells: []
+    parentIndex: 7
+  - layerIndex: 15
+    guid: 1319144429
+    name: Edamame
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Edamame
+      frameIndex: 0
+      cellRect:
+        x: 666
+        y: 150
+        width: 125
+        height: 55
+      spriteId: 212f3d8124da76d4ca8af2e5a9eecf1b
+    linkedCells: []
+    parentIndex: 7
+  - layerIndex: 16
+    guid: -1635247636
+    name: Signs
+    layerFlags: 35
+    layerType: 1
+    blendMode: 0
+    cells: []
+    linkedCells: []
+    parentIndex: 7
+  - layerIndex: 17
+    guid: 1878941327
+    name: Cucumber
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Cucumber
+      frameIndex: 0
+      cellRect:
+        x: 812
+        y: 137
+        width: 40
+        height: 18
+      spriteId: 602336491631adb42b5f512e8fdbfff8
+    linkedCells: []
+    parentIndex: 16
+  - layerIndex: 18
+    guid: -1424141240
+    name: Furikake
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Furikake
+      frameIndex: 0
+      cellRect:
+        x: 699
+        y: 137
+        width: 40
+        height: 18
+      spriteId: 0e27680d8624d2745a906389b58e87f1
+    linkedCells: []
+    parentIndex: 16
+  - layerIndex: 19
+    guid: -2101627908
+    name: Inamona
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Inamona
+      frameIndex: 0
+      cellRect:
+        x: 814
+        y: 190
+        width: 40
+        height: 18
+      spriteId: 25d3723862cf157429f5782cf58f993b
+    linkedCells: []
+    parentIndex: 16
+  - layerIndex: 20
+    guid: 1319144438
+    name: Edamame
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Edamame
+      frameIndex: 0
+      cellRect:
+        x: 701
+        y: 190
+        width: 40
+        height: 18
+      spriteId: 675d50e906441b54487d7f60f879ce3b
+    linkedCells: []
+    parentIndex: 16
+  - layerIndex: 21
+    guid: 1641037293
+    name: Salmon
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Salmon
+      frameIndex: 0
+      cellRect:
+        x: 205
+        y: 138
+        width: 40
+        height: 18
+      spriteId: 63502571d9e080440ac582317c19d7f2
+    linkedCells: []
+    parentIndex: 16
+  - layerIndex: 22
+    guid: -1050131669
+    name: Ani-Tuna
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Ani-Tuna
+      frameIndex: 0
+      cellRect:
+        x: 207
+        y: 191
+        width: 40
+        height: 18
+      spriteId: de050384b93a30048a2a5194a9fc3dfc
+    linkedCells: []
+    parentIndex: 16
+  - layerIndex: 23
+    guid: 1713769411
+    name: SPOONS
+    layerFlags: 35
+    layerType: 1
+    blendMode: 0
+    cells: []
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 24
+    guid: 1628015680
+    name: salmon
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: salmon
+      frameIndex: 0
+      cellRect:
+        x: 434
+        y: 107
+        width: 50
+        height: 54
+      spriteId: 42182ed64bf8e4f498ab3a5a3348f76d
+    linkedCells: []
+    parentIndex: 23
+  - layerIndex: 25
+    guid: -503678851
+    name: ahi tuna
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: ahi tuna
+      frameIndex: 0
+      cellRect:
+        x: 432
+        y: 164
+        width: 50
+        height: 54
+      spriteId: 3cd98856e86ad114993038cf2c2df90b
+    linkedCells: []
+    parentIndex: 23
+  - layerIndex: 26
+    guid: 1452506148
+    name: cucumber
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: cucumber
+      frameIndex: 0
+      cellRect:
+        x: 880
+        y: 109
+        width: 50
+        height: 54
+      spriteId: f86b45dd01954d743950a6b3aac51a1c
+    linkedCells: []
+    parentIndex: 23
+  - layerIndex: 27
+    guid: 889457049
+    name: edamame
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: edamame
+      frameIndex: 0
+      cellRect:
+        x: 756
+        y: 164
+        width: 50
+        height: 54
+      spriteId: 30df3971c119c584385bb6a4c6cbbceb
+    linkedCells: []
+    parentIndex: 23
+  - layerIndex: 28
+    guid: -1853828634
+    name: furikake
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: furikake
+      frameIndex: 0
+      cellRect:
+        x: 760
+        y: 113
+        width: 50
+        height: 54
+      spriteId: 1d8e07ef49c3f1d4c9dd43d1a37a3fa5
+    linkedCells: []
+    parentIndex: 23
+  - layerIndex: 29
+    guid: 1763550354
+    name: inamona
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: inamona
+      frameIndex: 0
+      cellRect:
+        x: 876
+        y: 164
+        width: 50
+        height: 54
+      spriteId: 290b9895f11ea1b48a9cf8b19e4863d2
+    linkedCells: []
+    parentIndex: 23
+  - layerIndex: 30
+    guid: 1317221920
+    name: Layer 3
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 3
+      frameIndex: 0
+      cellRect:
+        x: 572
+        y: 154
+        width: 70
+        height: 68
+      spriteId: 02b3dd0a5a7b36d45b6995763a80c425
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 31
+    guid: -84257609
+    name: bowl layer2 Copy
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: bowl layer2 Copy
+      frameIndex: 0
+      cellRect:
+        x: 134
+        y: 49
+        width: 76
+        height: 65
+      spriteId: 4be8a03baace6454599b50ba29e8b9eb
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 32
+    guid: 1317223903
+    name: Layer 4
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 4
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 219
+        width: 1000
+        height: 13
+      spriteId: baacc7ae68beb894581d41e162bf2ae5
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 33
+    guid: 1317224365
+    name: Layer 5
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 5
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 232
+        width: 1000
+        height: 38
+      spriteId: eaca5b17adf75e147bbf40165364c811
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 1000, y: 270}
