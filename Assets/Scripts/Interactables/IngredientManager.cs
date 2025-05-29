@@ -30,4 +30,9 @@ public class IngredientManager : MonoBehaviour
         activeIngredient = newIngredient;
         activeIngredient.PlayLiftAnim();
     }
+
+    public Ingredient GetActiveIngredient()
+    {
+        return activeIngredient;
+    }
 }
