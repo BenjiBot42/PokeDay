@@ -6,16 +6,10 @@ using UnityEngine;
 public class Bowl : MonoBehaviour, IInteractable
 {
     [SerializeField] private IngredientManager ingredientManager;
-
-
+    [SerializeField] private OrderManager orderManager;
 
     public void OnClick()
     {
-        AddIngredient();
-    }
-
-    private void AddIngredient()
-    {
-        print(ingredientManager.GetActiveIngredient());        
+        orderManager.AddIngredientToBowl(ingredientManager.GetActiveIngredient());
     }
 }
