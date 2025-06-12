@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Customer : MonoBehaviour
 {
+    [SerializeField] private string customerName;
+
     private CustomerState currentState;
 
     private Animator animator;
@@ -37,9 +39,14 @@ public class Customer : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, currentTarget, moveSpeed * Time.deltaTime);
     }
 
+    public string GetCustomerName()
+    {
+        return customerName;
+    }
+
     public void PlayAnimation(string animName)
     {
-        if(animator != null)
+        if (animator != null)
         {
             animator.Play(animName);
         }
@@ -67,8 +74,13 @@ public class Customer : MonoBehaviour
     {
         return Vector2.Distance(transform.position, currentTarget) < 0.2f;
     }
+
+    public void ShowOrder()
+    {
+        
+    }
     
-    public void ShowOrder() { /* TODO: SHOW ORDER UI*/ }
+
     public void HideOrder() { /* TODO: HIDE ORDER UI*/ }
     public void NotifyPlayerOfOrder(){}
 

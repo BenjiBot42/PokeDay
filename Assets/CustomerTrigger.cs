@@ -1,31 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CustomerTrigger : MonoBehaviour
 {
-    [SerializeField] private BoxCollider2D CustomerRegisterTrig;
+//    [SerializeField] private BoxCollider2D CustomerRegisterTrig;
 
-    private bool customerAtRegister = false;
+    [SerializeField] private bool isCustomerAtRegister = false;
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private Customer currentCustomerAtRegister;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Customer")
+        if (other.GameObject().tag == "Customer")
         {
-            customerAtRegister = true;
+            isCustomerAtRegister = true;
+            currentCustomerAtRegister = other.GameObject().GetComponent<Customer>();
         }
     }
 
-    private void OnCollisionExit2D(Collision2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Customer")
+        if (other.GameObject().tag == "Customer")
         {
-            customerAtRegister = false;
+            isCustomerAtRegister = false;
+            currentCustomerAtRegister = null;
         }
     }
 
-    public bool CustomerAtRegister()
+    public bool GetIsCustomerAtRegister()
     {
-        return customerAtRegister;
+        return isCustomerAtRegister;
+    }
+
+    public Customer GetCurrentCustomerAtRegister()
+    {
+        return currentCustomerAtRegister;
     }
 }

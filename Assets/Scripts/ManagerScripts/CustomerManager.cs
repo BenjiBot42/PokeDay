@@ -16,10 +16,13 @@ public class CustomerManager : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer >= spawnInterval)
+        if (timer >= spawnInterval)
         {
+            if (exitPoint.gameObject.activeInHierarchy)
+            {
+                SpawnCustomer();
+            }
             timer = 0f;
-            SpawnCustomer();
         }
     }
 

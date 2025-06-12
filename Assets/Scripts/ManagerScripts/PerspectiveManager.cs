@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PerspectiveManager : MonoBehaviour
@@ -40,31 +41,31 @@ public class PerspectiveManager : MonoBehaviour
         thirdPersonCam.SetActive(false);
         firstPersonCam.SetActive(true);
 
-        if (currentTriggerTag == "BarTrigger")
+        switch (currentTriggerTag)
         {
-            areaManager.ShowArea("Counter");
-            handsManager.ShowRightHand("SpoonHandRight");
-            handsManager.ShowLeftHand("BowlLeft");
+            case "BarTrigger":
+                areaManager.ShowArea("Counter");
+                handsManager.ShowRightHand("SpoonHandRight");
+                handsManager.ShowLeftHand("BowlLeft");
 
-            camFollowObject = handsManager.bowlHandLeft;
-        }
+                camFollowObject = handsManager.bowlHandLeft;
+                break;
 
-        else if (currentTriggerTag == "RegisterTrigger")
-        {
-            areaManager.ShowArea("Register");
-            handsManager.ShowRightHand("BareHandRight");
-            handsManager.ShowLeftHand("EmptyHandLeft");
+            case "RegisterTrigger":
+                areaManager.ShowArea("Register");
+                handsManager.ShowRightHand("BareHandRight");
+                handsManager.ShowLeftHand("EmptyHandLeft");
 
-            camFollowObject = handsManager.emptyHandLeft;
-        }
+                camFollowObject = handsManager.emptyHandLeft;
+                break;
 
-        else if (currentTriggerTag == "FridgeTrigger")
-        {
-            areaManager.ShowArea("Fridge");
-            handsManager.ShowRightHand("BareHandRight");
-            handsManager.ShowLeftHand("EmptyHandLeft");
+            case "FridgeTrigger":
+                areaManager.ShowArea("Fridge");
+                handsManager.ShowRightHand("BareHandRight");
+                handsManager.ShowLeftHand("EmptyHandLeft");
 
-            camFollowObject = handsManager.emptyHandLeft;
+                camFollowObject = handsManager.emptyHandLeft;
+                break;
         }
 
         firstPVirtualCamera.Follow = camFollowObject.transform;
