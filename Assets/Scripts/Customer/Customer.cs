@@ -13,8 +13,8 @@ public class Customer : MonoBehaviour
 
     public Vector2 counterPostion;
     public Vector2 exitPosition;
-    public bool orderTaken = false;
-    public bool orderFulfilled = false;
+    private bool orderTaken = false;
+    private bool orderFulfilled = false;
 
     private Vector2 currentTarget;
     private float moveSpeed = 2f;
@@ -38,6 +38,8 @@ public class Customer : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(transform.position, currentTarget, moveSpeed * Time.deltaTime);
     }
+
+    
 
     public string GetCustomerName()
     {

@@ -7,6 +7,9 @@ using Random = UnityEngine.Random;
 
 public class OrderManager : MonoBehaviour
 {
+    private RegisterEnvironment registerEnvironment;
+    private Customer activeCustomer;
+
     public List<Ingredient> customerOrderItems;
 
     public List<Ingredient> currentBowlItems;
@@ -20,6 +23,23 @@ public class OrderManager : MonoBehaviour
     private string currentRice;
     private string currentProtein;
     private string currentTopping;
+
+    private bool orderInHand = false;
+
+    private void Update()
+    {
+        activeCustomer = registerEnvironment.GetActiveCustomer();   
+    }
+
+    public bool GetOrderInHand()
+    {
+        return orderInHand;
+    }
+
+    public void SetOrderInHand(bool value)
+    {
+        orderInHand = value;
+    }
 
     public void AddIngredientToBowl(Ingredient ingredient)
     {
@@ -35,6 +55,13 @@ public class OrderManager : MonoBehaviour
         currentTopping = GetRandTopping();
 
         customerOrderText.text = "Hello! I would like a poke bowl with " + currentRice + ", " + currentProtein + ", and " + currentTopping;
+
+        activeCustomer.OnOrderTaken();
+    }
+
+    public void FulfillCustomerOrder()
+    {
+        activeCustomer.OnOrderFulfilled();
     }
 
     #region Get Random Ingredients

@@ -9,7 +9,7 @@ public class CustomerTrigger : MonoBehaviour
 
     [SerializeField] private bool isCustomerAtRegister = false;
 
-    private Customer currentCustomerAtRegister;
+    [SerializeField] private Customer currentCustomerAtRegister;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -20,6 +20,7 @@ public class CustomerTrigger : MonoBehaviour
         }
     }
 
+    /*
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.GameObject().tag == "Customer")
@@ -28,6 +29,7 @@ public class CustomerTrigger : MonoBehaviour
             currentCustomerAtRegister = null;
         }
     }
+    */
 
     public bool GetIsCustomerAtRegister()
     {

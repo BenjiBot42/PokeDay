@@ -11,19 +11,29 @@ public class RegisterEnvironment : MonoBehaviour
 
     private void OnEnable()
     {
-        if (activeCustomer == null) { return; }
-
         activeCustomer = customerTrigger.GetCurrentCustomerAtRegister();
         customerName = activeCustomer.GetCustomerName();
 
-        switch (activeCustomer.GetCustomerName())
+        if (activeCustomer == null)
+        {
+            //do not display a customer
+            return;
+        }
+
+        switch (customerName)
         {
             case "Joe":
-                print("Joe");
+                //display joe
                 break;
             case "Goth":
-                print("Goth");
+                //display goth
                 break;
         }
     }
+
+    public Customer GetActiveCustomer()
+    {
+        return activeCustomer;
+    }
+
 }
