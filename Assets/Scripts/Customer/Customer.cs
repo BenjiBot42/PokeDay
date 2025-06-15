@@ -86,6 +86,12 @@ public class Customer : MonoBehaviour
     public void HideOrder() { /* TODO: HIDE ORDER UI*/ }
     public void NotifyPlayerOfOrder(){}
 
+    public bool GetorderTaken()
+    { return orderTaken; }
+
+    public bool GetorderFulfilled()
+    { return orderFulfilled; }
+
     public void OnOrderTaken()
     {
         orderTaken = true;

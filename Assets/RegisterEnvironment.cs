@@ -4,36 +4,58 @@ using UnityEngine;
 
 public class RegisterEnvironment : MonoBehaviour
 {
-    [SerializeField] private CustomerTrigger customerTrigger;
-    [SerializeField] private Customer activeCustomer;
-    private GameObject customerPrefab;
-    [SerializeField] private string customerName;
+    [SerializeField] private CustomerManager customerManager;
+    private string customerName;
 
+    private Dictionary<string, GameObject> customerGameObjects = new Dictionary<string, GameObject>();
+
+    [SerializeField] private GameObject joeGO;
+    [SerializeField] private GameObject gothGO;
+
+    private void Awake()
+    {
+        RegisterCustomer("Joe", joeGO);
+        RegisterCustomer("Goth", gothGO);
+    }
+
+    public void RegisterCustomer(string name, GameObject customerGameObject)
+    {
+        customerGameObjects[name] = customerGameObject;
+    }
+
+    private void EnableCustomerGameObject(string customerName)
+    {
+        foreach (var customer in customerGameObjects.Values)
+        {
+            customer.SetActive(false);
+        }
+
+        if (customerGameObjects.ContainsKey(customerName))
+        {
+            customerGameObjects[customerName].SetActive(true);
+        }
+    }
+    
     private void OnEnable()
     {
-        activeCustomer = customerTrigger.GetCurrentCustomerAtRegister();
-        customerName = activeCustomer.GetCustomerName();
+        customerManager.SetActiveCustomer();
 
-        if (activeCustomer == null)
+        if (customerManager.GetActiveCustomer() == null)
         {
-            //do not display a customer
+            EnableCustomerGameObject("");
             return;
         }
+
+        customerName = customerManager.GetActiveCustomer().GetCustomerName();
 
         switch (customerName)
         {
             case "Joe":
-                //display joe
+                EnableCustomerGameObject("Joe");
                 break;
             case "Goth":
-                //display goth
+                EnableCustomerGameObject("Goth");
                 break;
         }
     }
-
-    public Customer GetActiveCustomer()
-    {
-        return activeCustomer;
-    }
-
 }

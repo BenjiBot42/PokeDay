@@ -1,14 +1,19 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class OrderManager : MonoBehaviour
 {
-    private RegisterEnvironment registerEnvironment;
-    private Customer activeCustomer;
+    private Dictionary<string, Ingredient> ingredients = new Dictionary<string, Ingredient>();
+
+    [SerializeField] private CustomerManager customerManager;
+
+    //TO:DO Keep private
+    [SerializeField] private Customer activeCustomer;
 
     public List<Ingredient> customerOrderItems;
 
@@ -24,11 +29,11 @@ public class OrderManager : MonoBehaviour
     private string currentProtein;
     private string currentTopping;
 
-    private bool orderInHand = false;
+    [SerializeField] private bool orderInHand = false;
 
     private void Update()
     {
-        activeCustomer = registerEnvironment.GetActiveCustomer();   
+        activeCustomer = customerManager.GetActiveCustomer();   
     }
 
     public bool GetOrderInHand()
@@ -61,7 +66,40 @@ public class OrderManager : MonoBehaviour
 
     public void FulfillCustomerOrder()
     {
+        if (IsSame(currentBowlItems, customerOrderItems) == true)
+        {
+            customerOrderText.text = "Thank you!";
+        }
+
+        else if (IsSame(currentBowlItems, customerOrderItems) == false)
+        {
+            customerOrderText.text = "this isn't what I wanted...";
+        }
+
         activeCustomer.OnOrderFulfilled();
+    }
+
+    private bool IsSame(List<Ingredient> bowlItems, List<Ingredient> orderItems)
+    {
+        if (bowlItems.Count != orderItems.Count)
+        {
+            return false;
+        }
+
+        List<Ingredient> bowlItemsSorted = bowlItems.ToList();
+        bowlItemsSorted.Sort();
+        List<Ingredient> orderItemsSorted = orderItems.ToList();
+        orderItemsSorted.Sort();
+
+        for (int i = 0; i < bowlItemsSorted.Count; i++)
+        {
+            if (bowlItemsSorted[i] != orderItemsSorted[i])
+            {
+                return false; // ingredients did not match
+            }
+        }
+
+        return true; // all ingredients matched
     }
 
     #region Get Random Ingredients

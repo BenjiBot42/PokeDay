@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class CustomerManager : MonoBehaviour
 {
+    [SerializeField] private CustomerTrigger customerTrigger;
+    private Customer activeCustomer;
+
     [SerializeField] private GameObject[] customerPrefabs;
 
     [SerializeField] private Transform counterPoint;
@@ -24,6 +27,16 @@ public class CustomerManager : MonoBehaviour
             }
             timer = 0f;
         }
+    }
+
+    public void SetActiveCustomer()
+    {
+        activeCustomer = customerTrigger.GetCurrentCustomerAtRegister();
+    }
+
+    public Customer GetActiveCustomer()
+    {
+        return activeCustomer;
     }
 
     public void SpawnCustomer()

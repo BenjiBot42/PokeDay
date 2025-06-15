@@ -139,58 +139,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Customer_Frame_0
+  - name: Goth
     originalName: 
-    pivot: {x: -0.3214285, y: -0.82456136}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 395
-      y: 415
-      width: 112
-      height: 114
-    spriteID: 14a28c585d04ae04893ba00561d68d8e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 395, y: 415}
-  - name: Customer_Frame_1
-    originalName: 
-    pivot: {x: 0.30400005, y: -0.82456136}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 262
-      y: 415
-      width: 125
-      height: 114
-    spriteID: 9495309058b505b46bb941ab63cb6801
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 262, y: 415}
-  - name: Customer_Frame_2
-    originalName: 
-    pivot: {x: -0.70588225, y: -0.82456136}
+    pivot: {x: -0.46590912, y: -0.9200001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 558
-      width: 51
-      height: 114
-    spriteID: cb791a45c0cfb5d44be7238c13a9c3eb
+      y: 704
+      width: 88
+      height: 125
+    spriteID: 177b9ab07e23de8458b9653052fec71d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -198,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 558}
+    uvTransform: {x: 4, y: 704}
   - name: Counter
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -210,7 +170,7 @@ ScriptedImporter:
       y: 282
       width: 480
       height: 125
-    spriteID: 24b26f15ec7bd17408aa02cf74a50a07
+    spriteID: 13c58046264a5114d974e6102ba5ca85
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -221,16 +181,16 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 282}
   - name: Register
     originalName: 
-    pivot: {x: 0.824, y: -0.4148148}
+    pivot: {x: 1.3205129, y: -0.4148148}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 415
-      width: 250
+      width: 156
       height: 135
-    spriteID: 636d17873a65e90429c7d94cdb4eebd0
+    spriteID: a66c265dd5ed2b84ca6b1bc9eb916469
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -239,6 +199,26 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 415}
+  - name: Joe
+    originalName: 
+    pivot: {x: -0.5376345, y: -0.8115942}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 558
+      width: 93
+      height: 138
+    spriteID: 7ffcc9a4f3db84542afd1877d126a329
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 558}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -262,41 +242,25 @@ ScriptedImporter:
     - frameIndex: 2
       linkedToFrame: 0
     parentIndex: -1
-  - layerIndex: 1
-    guid: 1625733295
-    name: Customer
+  - layerIndex: 3
+    guid: -615853565
+    name: Goth
     layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Customer_Frame_0
+    - name: Goth
       frameIndex: 0
       cellRect:
-        x: 276
-        y: 94
-        width: 112
-        height: 114
-      spriteId: 14a28c585d04ae04893ba00561d68d8e
-    - name: Customer_Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 202
-        y: 94
-        width: 125
-        height: 114
-      spriteId: 9495309058b505b46bb941ab63cb6801
-    - name: Customer_Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 276
-        y: 94
-        width: 51
-        height: 114
-      spriteId: cb791a45c0cfb5d44be7238c13a9c3eb
+        x: 281
+        y: 115
+        width: 88
+        height: 125
+      spriteId: 177b9ab07e23de8458b9653052fec71d
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 2
-    guid: 1804843248
+  - layerIndex: 4
+    guid: 1804843254
     name: Counter
     layerFlags: 19
     layerType: 0
@@ -309,15 +273,15 @@ ScriptedImporter:
         y: 0
         width: 480
         height: 125
-      spriteId: 24b26f15ec7bd17408aa02cf74a50a07
+      spriteId: 13c58046264a5114d974e6102ba5ca85
     linkedCells:
     - frameIndex: 1
       linkedToFrame: 0
     - frameIndex: 2
       linkedToFrame: 0
     parentIndex: -1
-  - layerIndex: 3
-    guid: 987541534
+  - layerIndex: 5
+    guid: 987541528
     name: Register
     layerFlags: 19
     layerType: 0
@@ -328,14 +292,31 @@ ScriptedImporter:
       cellRect:
         x: 34
         y: 56
-        width: 250
+        width: 156
         height: 135
-      spriteId: 636d17873a65e90429c7d94cdb4eebd0
+      spriteId: a66c265dd5ed2b84ca6b1bc9eb916469
     linkedCells:
     - frameIndex: 1
       linkedToFrame: 0
     - frameIndex: 2
       linkedToFrame: 0
+    parentIndex: -1
+  - layerIndex: 2
+    guid: -468344658
+    name: Joe
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Joe
+      frameIndex: 0
+      cellRect:
+        x: 290
+        y: 112
+        width: 93
+        height: 138
+      spriteId: 7ffcc9a4f3db84542afd1877d126a329
+    linkedCells: []
     parentIndex: -1
   platformSettings:
   - name: DefaultTexturePlatform

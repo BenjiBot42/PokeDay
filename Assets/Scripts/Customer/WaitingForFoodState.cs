@@ -13,7 +13,7 @@ public class WaitingForFoodState : CustomerState
 
     public override void Update()
     {
-        if(customer.orderFulfilled)
+        if(customer.GetorderFulfilled())
         {
             customer.HideOrder();
             customer.SetState(new LeavingState(customer));

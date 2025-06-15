@@ -15,7 +15,7 @@ public class WaitingForOrderState : CustomerState
 
     public override void Update()
     {
-        if(customer.orderTaken)
+        if(customer.GetorderTaken())
         {
             customer.SetState(new WaitingForFoodState(customer));
         }

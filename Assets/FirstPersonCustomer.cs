@@ -6,16 +6,12 @@ using UnityEngine;
 public class FirstPersonCustomer : MonoBehaviour, IInteractable
 {
     [SerializeField] private OrderManager orderManager;
-    [SerializeField] private RegisterEnvironment registerEnvironment;
 
     public void OnClick()
     {
         if (orderManager.GetOrderInHand() == false)
         {
-            
-            
-                orderManager.TakeCustomerOrder();
-            
+            orderManager.TakeCustomerOrder();
         }
 
         else if (orderManager.GetOrderInHand() == true)
