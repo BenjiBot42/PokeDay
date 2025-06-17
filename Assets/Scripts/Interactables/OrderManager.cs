@@ -8,25 +8,17 @@ using Random = UnityEngine.Random;
 
 public class OrderManager : MonoBehaviour
 {
-    private Dictionary<Ingredient, string> ingredients = new Dictionary<Ingredient, string>();
-
     [SerializeField] private CustomerManager customerManager;
 
-    //TO:DO Keep private
-    [SerializeField] private Customer activeCustomer;
+    private Customer activeCustomer;
 
-    public List<Ingredient> customerOrderItems;
+    public List<String> customerOrderItems;
 
-    public List<Ingredient> currentBowlItems;
+    public List<String> currentBowlItems;
 
-    [SerializeField] private TMP_Text customerOrderText;
-
-    //debug texts
-    [SerializeField] private TMP_Text _currentOrderText;
-    [SerializeField] private TMP_Text _currentBowlText;
-
-    private string[] rices = { "white Rice" };
-    private string[] proteins = { "Ahi-Tuna", "Salmon" };
+    //Make sure these names are the same as the ingredient names
+    private string[] rices = { "White Rice" };
+    private string[] proteins = { "Ani-Tuna", "Salmon" };
     private string[] toppings = { "Edamame", "Inamona", "Furikake", "Cucumber" };
 
     private string currentRice;
@@ -34,10 +26,17 @@ public class OrderManager : MonoBehaviour
     private string currentTopping;
 
     [SerializeField] private bool orderInHand = false;
+    [SerializeField] private bool orderTaken = false;
+
+    [SerializeField] private TMP_Text customerOrderText;
+
+    //debug texts
+    [SerializeField] private TMP_Text _currentOrderText;
+    [SerializeField] private TMP_Text _currentBowlText;
 
     private void Update()
     {
-        activeCustomer = customerManager.GetActiveCustomer();   
+        activeCustomer = customerManager.GetActiveCustomer();
     }
 
     public bool GetOrderInHand()
@@ -52,15 +51,20 @@ public class OrderManager : MonoBehaviour
 
     public void AddIngredientToBowl(Ingredient ingredient)
     {
-        currentBowlItems.Add(ingredient);
-        
+        currentBowlItems.Add(ingredient.GetIngredientName());
+
         _currentBowlText.text += ingredient.GetIngredientName() + " ";
     }
 
-    public void ClearBowl()
+    public void ClearLists()
     {
+        //Clear Bowl List
         currentBowlItems.Clear();
-        _currentBowlText.text = "";
+        _currentBowlText.text = "In Bowl:";
+
+        //Clear Customer Order List
+        customerOrderItems.Clear();
+        _currentOrderText.text = "Current Order:";
     }
 
     public void TakeCustomerOrder()
@@ -70,6 +74,10 @@ public class OrderManager : MonoBehaviour
         currentRice = GetRandRice();
         currentProtein = GetRandProtein();
         currentTopping = GetRandTopping();
+
+        customerOrderItems.Add(currentRice);
+        customerOrderItems.Add(currentProtein);
+        customerOrderItems.Add(currentTopping);
 
         customerOrderText.text = "Hello! I would like a poke bowl with " + currentRice + ", " + currentProtein + ", and " + currentTopping;
         _currentOrderText.text = currentRice + " " + currentProtein + " " + currentTopping;
@@ -89,21 +97,21 @@ public class OrderManager : MonoBehaviour
             customerOrderText.text = "this isn't what I wanted...";
         }
 
-        ClearBowl();
+        ClearLists();
         SetOrderInHand(false);
         activeCustomer.OnOrderFulfilled();
     }
 
-    private bool IsSame(List<Ingredient> bowlItems, List<Ingredient> orderItems)
+    private bool IsSame(List<String> bowlItems, List<String> orderItems)
     {
         if (bowlItems.Count != orderItems.Count)
         {
             return false;
         }
 
-        List<Ingredient> bowlItemsSorted = bowlItems.ToList();
+        List<String> bowlItemsSorted = bowlItems.ToList();
         bowlItemsSorted.Sort();
-        List<Ingredient> orderItemsSorted = orderItems.ToList();
+        List<String> orderItemsSorted = orderItems.ToList();
         orderItemsSorted.Sort();
 
         for (int i = 0; i < bowlItemsSorted.Count; i++)

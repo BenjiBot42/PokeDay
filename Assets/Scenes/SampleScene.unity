@@ -778,6 +778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: SpicyMayo
   boolIsLiftedName: SpicyMayo_Lifted
+  ingredientManager: {fileID: 107195892}
 --- !u!1 &377940549
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,7 +882,7 @@ GameObject:
   - component: {fileID: 439266938}
   - component: {fileID: 439266940}
   - component: {fileID: 439266939}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WhiteRice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -915,8 +916,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a67c2a45fd69744a8017f1a6002336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredientName: WhiteRice
+  ingredientName: White Rice
   boolIsLiftedName: 
+  ingredientManager: {fileID: 107195892}
 --- !u!58 &439266940
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1526,6 +1528,8 @@ MonoBehaviour:
   camFollowObject: {fileID: 0}
   areaManager: {fileID: 51587384}
   handsManager: {fileID: 1980155789}
+  orderManager: {fileID: 1111219097}
+  currentTriggerTag: 
 --- !u!1 &598555411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Cucumber
   boolIsLiftedName: Cucumber_Lifted
+  ingredientManager: {fileID: 107195892}
 --- !u!1 &643839361
 GameObject:
   m_ObjectHideFlags: 0
@@ -2208,6 +2213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Furikake
   boolIsLiftedName: Furikake_Lifted
+  ingredientManager: {fileID: 107195892}
 --- !u!1 &915008893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2300,6 +2306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Ani-Tuna
   boolIsLiftedName: AniTuna_Lifted
+  ingredientManager: {fileID: 107195892}
 --- !u!1 &927471823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2519,6 +2526,10 @@ PrefabInstance:
     - target: {fileID: -1178625845427406760, guid: 3a3ca4426205dba4897bfd5277ce12a2, type: 3}
       propertyPath: m_Name
       value: condiments
+      objectReference: {fileID: 0}
+    - target: {fileID: -106878150946209409, guid: 3a3ca4426205dba4897bfd5277ce12a2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 552700093530826219, guid: 3a3ca4426205dba4897bfd5277ce12a2, type: 3}
       propertyPath: m_Name
@@ -2875,13 +2886,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customerManager: {fileID: 795125560}
-  activeCustomer: {fileID: 0}
   customerOrderItems: []
   currentBowlItems: []
+  orderInHand: 0
   customerOrderText: {fileID: 475811937}
   _currentOrderText: {fileID: 1789817943}
   _currentBowlText: {fileID: 828138747}
-  orderInHand: 0
 --- !u!4 &1111219098
 Transform:
   m_ObjectHideFlags: 0
@@ -3268,6 +3278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: SesameOil
   boolIsLiftedName: SesameOil_Lifted
+  ingredientManager: {fileID: 107195892}
 --- !u!1001 &1246935789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3911,6 +3922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Salmon
   boolIsLiftedName: Salmon_Lifted
+  ingredientManager: {fileID: 107195892}
 --- !u!1 &1539618832
 GameObject:
   m_ObjectHideFlags: 0
@@ -4178,6 +4190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Edamame
   boolIsLiftedName: Edamame_Lifted
+  ingredientManager: {fileID: 107195892}
 --- !u!1 &1784921158
 GameObject:
   m_ObjectHideFlags: 0
@@ -4270,6 +4283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Inamona
   boolIsLiftedName: Inamona_Lifted
+  ingredientManager: {fileID: 107195892}
 --- !u!1 &1785944110
 GameObject:
   m_ObjectHideFlags: 0
@@ -4601,7 +4615,7 @@ MonoBehaviour:
   rightHand: {fileID: 1539618832}
   leftHand: {fileID: 122345263}
   bowlRB: {fileID: 2118089621}
-  bowlSpeed: 6
+  bowlSpeed: 8
 --- !u!4 &1980155788
 Transform:
   m_ObjectHideFlags: 0

@@ -7,12 +7,7 @@ public class Ingredient : MonoBehaviour, IInteractable
     [SerializeField] private string ingredientName;
     [SerializeField] private string boolIsLiftedName;
 
-    private IngredientManager ingredientManager;
-
-    private void Awake()
-    {
-        ingredientManager = FindObjectOfType<IngredientManager>();
-    }
+    [SerializeField] private IngredientManager ingredientManager;
 
     public void OnClick()
     {
