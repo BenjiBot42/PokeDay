@@ -15,6 +15,9 @@ TagManager:
   - DoorPosition
   - OrderPosition
   - Customer
+  - RegisterExit
+  - BarExit
+  - FridgeExit
   layers:
   - Default
   - TransparentFX

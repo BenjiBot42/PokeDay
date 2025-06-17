@@ -18,8 +18,9 @@ public class PerspectiveManager : MonoBehaviour
     //[SerializeField] private InputManager inputManager;
     [SerializeField] private AreaManager areaManager;
     [SerializeField] private HandsManager handsManager;
+    [SerializeField] private OrderManager orderManager;
 
-    private string currentTriggerTag;
+    [SerializeField] private string currentTriggerTag;
 
     public void SetCurrentTriggerTag(string tag)
     {
@@ -73,6 +74,19 @@ public class PerspectiveManager : MonoBehaviour
 
     public void SwitchToThirdPerson()
     {
+        switch (currentTriggerTag)
+        {
+            case "BarExit":
+                orderManager.SetOrderInHand(true);
+                break;
+            case "RegisterExit":
+
+                break;
+            case "FridgeExit":
+
+                break;
+        }
+
         areaManager.ShowArea("Restaurant");
 
         //switches on/off player objects

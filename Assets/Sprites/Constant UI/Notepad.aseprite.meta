@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: edc6b87f52fe9ca4e92df154874a2d1d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 1
+    layerImportMode: 0
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 1
+    layerImportMode: 0
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638856219580486482
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: NotePad
+    originalName: 
+    pivot: {x: 3.6612902, y: -2.1309524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 62
+      height: 84
+    spriteID: 9c2ab9b50b863ba48af50354665b18aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: WhiteRice
+    originalName: 
+    pivot: {x: 6.4848485, y: -33.428574}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 67
+      width: 33
+      height: 7
+    spriteID: c29cd985717133445a0a424af28fa8b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 67}
+  - name: Ani-Tuna
+    originalName: 
+    pivot: {x: 5.325, y: -27.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 20
+      width: 40
+      height: 8
+    spriteID: 9bbc4576bfdae3a439fcc333eaea4d85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 20}
+  - name: Salmon
+    originalName: 
+    pivot: {x: 6.0857143, y: -27.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 51
+      width: 35
+      height: 8
+    spriteID: f56dab21e95ad9a45ac4687ebcfaceed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 51}
+  - name: Edamame
+    originalName: 
+    pivot: {x: 4.8, y: -30.57143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 36
+      width: 45
+      height: 7
+    spriteID: a462ad55a6c4d8b449b8271c68a7f732
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 36}
+  - name: Inamona
+    originalName: 
+    pivot: {x: 5.1951222, y: -26.625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 4
+      width: 41
+      height: 8
+    spriteID: e829e8202f1e0294ab59895d5b5e9c6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 4}
+  - name: Furikake
+    originalName: 
+    pivot: {x: 5.071429, y: -26.625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 112
+      width: 42
+      height: 8
+    spriteID: 422cfb0780f971842bb05fe64781219a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 112}
+  - name: Cucumber
+    originalName: 
+    pivot: {x: 4.711111, y: -26.625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 96
+      width: 45
+      height: 8
+    spriteID: 667179953638d8148ac9223c08a838ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 96}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 247122237
+    name: NotePad
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: NotePad
+      frameIndex: 0
+      cellRect:
+        x: 13
+        y: 179
+        width: 62
+        height: 84
+      spriteId: 9c2ab9b50b863ba48af50354665b18aa
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 1
+    guid: -290174747
+    name: Rices
+    layerFlags: 35
+    layerType: 1
+    blendMode: 0
+    cells: []
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 2
+    guid: -1998592336
+    name: WhiteRice
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: WhiteRice
+      frameIndex: 0
+      cellRect:
+        x: 26
+        y: 234
+        width: 33
+        height: 7
+      spriteId: c29cd985717133445a0a424af28fa8b4
+    linkedCells: []
+    parentIndex: 1
+  - layerIndex: 3
+    guid: 1354956597
+    name: Proteins
+    layerFlags: 35
+    layerType: 1
+    blendMode: 0
+    cells: []
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: -1050131655
+    name: Ani-Tuna
+    layerFlags: 2
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Ani-Tuna
+      frameIndex: 0
+      cellRect:
+        x: 27
+        y: 223
+        width: 40
+        height: 8
+      spriteId: 9bbc4576bfdae3a439fcc333eaea4d85
+    linkedCells: []
+    parentIndex: 3
+  - layerIndex: 5
+    guid: 1641037309
+    name: Salmon
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Salmon
+      frameIndex: 0
+      cellRect:
+        x: 27
+        y: 223
+        width: 35
+        height: 8
+      spriteId: f56dab21e95ad9a45ac4687ebcfaceed
+    linkedCells: []
+    parentIndex: 3
+  - layerIndex: 6
+    guid: 676746572
+    name: Toppings
+    layerFlags: 3
+    layerType: 1
+    blendMode: 0
+    cells: []
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 7
+    guid: 1319144421
+    name: Edamame
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Edamame
+      frameIndex: 0
+      cellRect:
+        x: 24
+        y: 214
+        width: 45
+        height: 7
+      spriteId: a462ad55a6c4d8b449b8271c68a7f732
+    linkedCells: []
+    parentIndex: 6
+  - layerIndex: 8
+    guid: -2101627929
+    name: Inamona
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Inamona
+      frameIndex: 0
+      cellRect:
+        x: 27
+        y: 213
+        width: 41
+        height: 8
+      spriteId: e829e8202f1e0294ab59895d5b5e9c6b
+    linkedCells: []
+    parentIndex: 6
+  - layerIndex: 9
+    guid: -1424141229
+    name: Furikake
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Furikake
+      frameIndex: 0
+      cellRect:
+        x: 27
+        y: 213
+        width: 42
+        height: 8
+      spriteId: 422cfb0780f971842bb05fe64781219a
+    linkedCells: []
+    parentIndex: 6
+  - layerIndex: 10
+    guid: 1878941332
+    name: Cucumber
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Cucumber
+      frameIndex: 0
+      cellRect:
+        x: 28
+        y: 213
+        width: 45
+        height: 8
+      spriteId: 667179953638d8148ac9223c08a838ef
+    linkedCells: []
+    parentIndex: 6
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 480, y: 270}

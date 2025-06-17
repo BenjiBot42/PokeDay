@@ -8,7 +8,7 @@ using Random = UnityEngine.Random;
 
 public class OrderManager : MonoBehaviour
 {
-    private Dictionary<string, Ingredient> ingredients = new Dictionary<string, Ingredient>();
+    private Dictionary<Ingredient, string> ingredients = new Dictionary<Ingredient, string>();
 
     [SerializeField] private CustomerManager customerManager;
 
@@ -20,6 +20,10 @@ public class OrderManager : MonoBehaviour
     public List<Ingredient> currentBowlItems;
 
     [SerializeField] private TMP_Text customerOrderText;
+
+    //debug texts
+    [SerializeField] private TMP_Text _currentOrderText;
+    [SerializeField] private TMP_Text _currentBowlText;
 
     private string[] rices = { "white Rice" };
     private string[] proteins = { "Ahi-Tuna", "Salmon" };
@@ -49,6 +53,14 @@ public class OrderManager : MonoBehaviour
     public void AddIngredientToBowl(Ingredient ingredient)
     {
         currentBowlItems.Add(ingredient);
+        
+        _currentBowlText.text += ingredient.GetIngredientName() + " ";
+    }
+
+    public void ClearBowl()
+    {
+        currentBowlItems.Clear();
+        _currentBowlText.text = "";
     }
 
     public void TakeCustomerOrder()
@@ -60,6 +72,7 @@ public class OrderManager : MonoBehaviour
         currentTopping = GetRandTopping();
 
         customerOrderText.text = "Hello! I would like a poke bowl with " + currentRice + ", " + currentProtein + ", and " + currentTopping;
+        _currentOrderText.text = currentRice + " " + currentProtein + " " + currentTopping;
 
         activeCustomer.OnOrderTaken();
     }
@@ -76,6 +89,8 @@ public class OrderManager : MonoBehaviour
             customerOrderText.text = "this isn't what I wanted...";
         }
 
+        ClearBowl();
+        SetOrderInHand(false);
         activeCustomer.OnOrderFulfilled();
     }
 

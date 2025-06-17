@@ -206,8 +206,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 88
-      y: 854
+      x: 501
+      y: 806
       width: 69
       height: 54
     spriteID: 0258d8918c579744ca731d284b1f26cd
@@ -218,7 +218,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 88, y: 854}
+    uvTransform: {x: 501, y: 806}
   - name: Cucumber
     originalName: 
     pivot: {x: 7.4680853, y: -1.6969696}
@@ -226,7 +226,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 973
+      x: 971
       y: 651
       width: 47
       height: 33
@@ -238,7 +238,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 973, y: 651}
+    uvTransform: {x: 971, y: 651}
   - name: bowl
     originalName: 
     pivot: {x: 4.8157897, y: -0.69642866}
@@ -246,8 +246,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 854
+      x: 912
+      y: 704
       width: 76
       height: 56
     spriteID: eef62b2696abc2e4595b3e7e9426ff98
@@ -258,7 +258,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 854}
+    uvTransform: {x: 912, y: 704}
   - name: fish bar
     originalName: 
     pivot: {x: 1.1206225, y: -0.61904764}
@@ -346,8 +346,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 890
-      y: 538
+      x: 137
+      y: 806
       width: 114
       height: 43
     spriteID: f1f287e052a4a3845bac73974936d2a7
@@ -358,7 +358,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 890, y: 538}
+    uvTransform: {x: 137, y: 806}
   - name: Cucumber
     originalName: 
     pivot: {x: -2.5044248, y: -2.35}
@@ -366,7 +366,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 259
       y: 806
       width: 113
       height: 40
@@ -378,7 +378,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 806}
+    uvTransform: {x: 259, y: 806}
   - name: Inamona
     originalName: 
     pivot: {x: -2.5044248, y: -4.0540543}
@@ -386,7 +386,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 125
+      x: 380
       y: 806
       width: 113
       height: 37
@@ -398,7 +398,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 125, y: 806}
+    uvTransform: {x: 380, y: 806}
   - name: Edamame
     originalName: 
     pivot: {x: -1.3280001, y: -2.727273}
@@ -406,8 +406,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 890
-      y: 475
+      x: 4
+      y: 806
       width: 125
       height: 55
     spriteID: a62af0d5ea8e7ae4abb75082127f3893
@@ -418,7 +418,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 890, y: 475}
+    uvTransform: {x: 4, y: 806}
   - name: Cucumber
     originalName: 
     pivot: {x: -7.799999, y: -7.6111116}
@@ -426,8 +426,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 633
-      y: 885
+      x: 673
+      y: 756
       width: 40
       height: 18
     spriteID: cb73f3db6446ffc4481c90e3667a6178
@@ -438,7 +438,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 633, y: 885}
+    uvTransform: {x: 673, y: 756}
   - name: Furikake
     originalName: 
     pivot: {x: -4.975, y: -7.6111116}
@@ -446,7 +446,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 673
+      x: 721
       y: 756
       width: 40
       height: 18
@@ -458,7 +458,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 673, y: 756}
+    uvTransform: {x: 721, y: 756}
   - name: Inamona
     originalName: 
     pivot: {x: -7.8500004, y: -10.555555}
@@ -466,7 +466,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 721
+      x: 769
       y: 756
       width: 40
       height: 18
@@ -478,7 +478,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 721, y: 756}
+    uvTransform: {x: 769, y: 756}
   - name: Edamame
     originalName: 
     pivot: {x: -5.0249996, y: -10.555555}
@@ -486,7 +486,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 769
+      x: 817
       y: 756
       width: 40
       height: 18
@@ -498,7 +498,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 769, y: 756}
+    uvTransform: {x: 817, y: 756}
   - name: Salmon
     originalName: 
     pivot: {x: 7.3750005, y: -7.666667}
@@ -506,8 +506,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 817
-      y: 756
+      x: 119
+      y: 869
       width: 40
       height: 18
     spriteID: 64ab71c6fb2f0f44eb639c7f741a9e77
@@ -518,7 +518,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 817, y: 756}
+    uvTransform: {x: 119, y: 869}
   - name: Ani-Tuna
     originalName: 
     pivot: {x: 7.325, y: -10.611112}
@@ -526,8 +526,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 727
-      y: 854
+      x: 167
+      y: 869
       width: 40
       height: 18
     spriteID: bdcc3841fbb4ce4469180c3fe4072871
@@ -538,7 +538,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 727, y: 854}
+    uvTransform: {x: 167, y: 869}
   - name: salmon
     originalName: 
     pivot: {x: 1.3200003, y: -1.9814814}
@@ -546,8 +546,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 165
-      y: 854
+      x: 578
+      y: 806
       width: 50
       height: 54
     spriteID: 8c0c347d435532241a46ecebbf261243
@@ -558,7 +558,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 165, y: 854}
+    uvTransform: {x: 578, y: 806}
   - name: ahi tuna
     originalName: 
     pivot: {x: 1.3599998, y: -3.037037}
@@ -566,8 +566,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 223
-      y: 854
+      x: 636
+      y: 806
       width: 50
       height: 54
     spriteID: f83ff031c26febf44b27baf1aa3fb104
@@ -578,7 +578,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 223, y: 854}
+    uvTransform: {x: 636, y: 806}
   - name: cucumber
     originalName: 
     pivot: {x: -7.6, y: -2.0185184}
@@ -586,8 +586,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 281
-      y: 854
+      x: 694
+      y: 806
       width: 50
       height: 54
     spriteID: a47da448f00ba1e4896834bdd5c519ba
@@ -598,7 +598,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 281, y: 854}
+    uvTransform: {x: 694, y: 806}
   - name: edamame
     originalName: 
     pivot: {x: -5.12, y: -3.037037}
@@ -606,8 +606,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 854
+      x: 752
+      y: 806
       width: 50
       height: 54
     spriteID: f8281d3ca10764448b09b65d2dfd34db
@@ -618,7 +618,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 854}
+    uvTransform: {x: 752, y: 806}
   - name: furikake
     originalName: 
     pivot: {x: -5.2, y: -2.0925925}
@@ -626,8 +626,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 397
-      y: 854
+      x: 810
+      y: 806
       width: 50
       height: 54
     spriteID: 257f748405f88f146addf2a2bcea3490
@@ -638,7 +638,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 397, y: 854}
+    uvTransform: {x: 810, y: 806}
   - name: inamona
     originalName: 
     pivot: {x: -7.5199995, y: -3.037037}
@@ -646,8 +646,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 455
-      y: 854
+      x: 868
+      y: 806
       width: 50
       height: 54
     spriteID: ae3ccbebda187974dbfeb36914a62c1d
@@ -658,67 +658,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 455, y: 854}
-  - name: Layer 3
-    originalName: 
-    pivot: {x: -1.0285718, y: -2.264706}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 912
-      y: 704
-      width: 70
-      height: 68
-    spriteID: c84a5cd0a2db9a8418e7cd8a60e1a8ba
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 912, y: 704}
-  - name: Layer 4
-    originalName: 
-    pivot: {x: 0.5, y: -16.846153}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 785
-      width: 1000
-      height: 13
-    spriteID: dd7e62d60cb070f4abc235169db16163
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 785}
-  - name: Layer 5
-    originalName: 
-    pivot: {x: 0.5, y: -6.105263}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 605
-      width: 1000
-      height: 38
-    spriteID: fc9f15826f8a20143b3f89b9f9ff2b40
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 605}
+    uvTransform: {x: 868, y: 806}
   - name: Rice
     originalName: 
     pivot: {x: 6.826924, y: -1.1428571}
@@ -726,8 +666,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 513
-      y: 854
+      x: 911
+      y: 651
       width: 52
       height: 42
     spriteID: ec5f8898b4d066a4ba6ad41ac85b8569
@@ -738,7 +678,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 513, y: 854}
+    uvTransform: {x: 911, y: 651}
   - name: Salmon
     originalName: 
     pivot: {x: 6.769231, y: -1.2380952}
@@ -746,8 +686,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 573
-      y: 854
+      x: 4
+      y: 869
       width: 52
       height: 42
     spriteID: c6a76aeba41cd7b49ae6c08a8c0680fa
@@ -758,7 +698,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 573, y: 854}
+    uvTransform: {x: 4, y: 869}
   - name: AniTuna
     originalName: 
     pivot: {x: 6.5555553, y: -1.2380952}
@@ -766,8 +706,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 911
-      y: 651
+      x: 926
+      y: 806
       width: 54
       height: 42
     spriteID: b6d748c358d8d6d47a0d822e85d7bd28
@@ -778,7 +718,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 911, y: 651}
+    uvTransform: {x: 926, y: 806}
   - name: Edamame
     originalName: 
     pivot: {x: 11.483871, y: -2}
@@ -786,8 +726,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 688
-      y: 854
+      x: 988
+      y: 806
       width: 31
       height: 30
     spriteID: 74d8d8c520d9c1d4d8fe188256341021
@@ -798,7 +738,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 688, y: 854}
+    uvTransform: {x: 988, y: 806}
   - name: Inamona
     originalName: 
     pivot: {x: 13.583334, y: -2.576923}
@@ -806,7 +746,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 990
+      x: 996
       y: 704
       width: 24
       height: 26
@@ -818,7 +758,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 990, y: 704}
+    uvTransform: {x: 996, y: 704}
   - name: Furikake
     originalName: 
     pivot: {x: 7.4680853, y: -2.173913}
@@ -826,8 +766,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 633
-      y: 854
+      x: 64
+      y: 869
       width: 47
       height: 23
     spriteID: 41c3333028f262f488b0bb528f2a6a7c
@@ -838,7 +778,147 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 633, y: 854}
+    uvTransform: {x: 64, y: 869}
+  - name: sesame_oil_shadow
+    originalName: 
+    pivot: {x: -3.4333327, y: -12.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 988
+      y: 844
+      width: 30
+      height: 10
+    spriteID: de7f4fa80b062a84a8828db2770f6a65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 988, y: 844}
+  - name: sesame_oil
+    originalName: 
+    pivot: {x: -3.1875, y: -2.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 988
+      y: 546
+      width: 32
+      height: 48
+    spriteID: 0e8c5d2436e6fbd428f93013336d6fa2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 988, y: 546}
+  - name: spicy_mayo_shadow
+    originalName: 
+    pivot: {x: -2.000001, y: -14.333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 895
+      width: 29
+      height: 9
+    spriteID: 4c692646ba5d791409e8d37a9f184fe4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 895}
+  - name: spicy_mayo
+    originalName: 
+    pivot: {x: -1.7499998, y: -2.095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 988
+      y: 475
+      width: 32
+      height: 63
+    spriteID: a8daf774d9dc9ec4aa40a5613b61655c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 988, y: 475}
+  - name: GlassFrame
+    originalName: 
+    pivot: {x: 0.5, y: -16.846153}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 785
+      width: 1000
+      height: 13
+    spriteID: b8f62ed10a0dc134592e8bfc25d6c2c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 785}
+  - name: Glass
+    originalName: 
+    pivot: {x: 0.5, y: -6.105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 605
+      width: 1000
+      height: 38
+    spriteID: b5eb4b98a9b8b484da452624ed5b8ef3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 605}
+  - name: CompleteOrder
+    originalName: 
+    pivot: {x: -4.522222, y: -0.077669896}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 890
+      y: 475
+      width: 90
+      height: 103
+    spriteID: 5a54db21bfc0efd46b663513c2efb2aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 890, y: 475}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -1439,54 +1519,122 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: 30
   - layerIndex: 37
-    guid: 1317221915
-    name: Layer 3
+    guid: -1101118327
+    name: sesame_oil_shadow
     layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Layer 3
+    - name: sesame_oil_shadow
       frameIndex: 0
       cellRect:
-        x: 572
-        y: 154
-        width: 70
-        height: 68
-      spriteId: c84a5cd0a2db9a8418e7cd8a60e1a8ba
+        x: 603
+        y: 129
+        width: 30
+        height: 10
+      spriteId: de7f4fa80b062a84a8828db2770f6a65
     linkedCells: []
-    parentIndex: -1
-  - layerIndex: 39
-    guid: 1317223896
-    name: Layer 4
+    parentIndex: 30
+  - layerIndex: 38
+    guid: -295329749
+    name: sesame_oil
     layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Layer 4
+    - name: sesame_oil
+      frameIndex: 0
+      cellRect:
+        x: 602
+        y: 132
+        width: 32
+        height: 48
+      spriteId: 0e8c5d2436e6fbd428f93013336d6fa2
+    linkedCells: []
+    parentIndex: 30
+  - layerIndex: 39
+    guid: -853567393
+    name: spicy_mayo_shadow
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: spicy_mayo_shadow
+      frameIndex: 0
+      cellRect:
+        x: 558
+        y: 129
+        width: 29
+        height: 9
+      spriteId: 4c692646ba5d791409e8d37a9f184fe4
+    linkedCells: []
+    parentIndex: 30
+  - layerIndex: 40
+    guid: 1807145945
+    name: spicy_mayo
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: spicy_mayo
+      frameIndex: 0
+      cellRect:
+        x: 556
+        y: 132
+        width: 32
+        height: 63
+      spriteId: a8daf774d9dc9ec4aa40a5613b61655c
+    linkedCells: []
+    parentIndex: 30
+  - layerIndex: 42
+    guid: 779296273
+    name: GlassFrame
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: GlassFrame
       frameIndex: 0
       cellRect:
         x: 0
         y: 219
         width: 1000
         height: 13
-      spriteId: dd7e62d60cb070f4abc235169db16163
+      spriteId: b8f62ed10a0dc134592e8bfc25d6c2c3
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 40
-    guid: 1317224356
-    name: Layer 5
+  - layerIndex: 43
+    guid: 1668227393
+    name: Glass
     layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Layer 5
+    - name: Glass
       frameIndex: 0
       cellRect:
         x: 0
         y: 232
         width: 1000
         height: 38
-      spriteId: fc9f15826f8a20143b3f89b9f9ff2b40
+      spriteId: b5eb4b98a9b8b484da452624ed5b8ef3
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 44
+    guid: -171140957
+    name: CompleteOrder
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: CompleteOrder
+      frameIndex: 0
+      cellRect:
+        x: 907
+        y: 8
+        width: 90
+        height: 103
+      spriteId: 5a54db21bfc0efd46b663513c2efb2aa
     linkedCells: []
     parentIndex: -1
   platformSettings:
